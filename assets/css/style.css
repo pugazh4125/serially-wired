@@ -464,7 +464,7 @@ img {
 
 }
 
-}
+
 
 .skills__header {
   display: flex;
@@ -586,6 +586,47 @@ img {
 .skills__open .skills__arrow {
   transform: rotate(-180deg);
 }
+
+/*==================== BLOG SECTION ====================*/
+.blog__container {
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  margin-top: 2rem;
+}
+
+.blog__card {
+  position: relative;
+  background-color: var(--container-color);
+  padding: 2rem 1.5rem;
+  border-radius: .5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+  transition: 0.3s ease;
+}
+
+.blog__card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+}
+
+.blog__title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-5);
+}
+
+.blog__intro {
+  font-size: var(--normal-font-size);
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.blog__card .button--link {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  color: var(--first-color);
+  cursor: pointer;
+}
+
 
 /*==================== QUALIFICATION ====================*/
 

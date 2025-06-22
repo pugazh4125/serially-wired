@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Serially Wired</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="light-theme">
+
+<!-- ======= Header or Navbar (copy from index.html) ======= -->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="index.html" class="nav__logo">Serially Wired</a>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list grid">
+                <li class="nav__item">
+                    <a href="index.html#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="index.html#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="blog.html" class="nav__link">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+  <!-- ======= Blog Section ======= -->
+  <section class="blog section" id="blog">
+    <h2 class="section__title">Blog</h2>
+    <span class="section__subtitle">My thoughts, projects & more</span>
+
+    <div class="blog__container container grid">
+
+      <!-- Post 1 -->
+      <div class="blog__card">
+        <h3 class="blog__title">How I Built This Site</h3>
+        <p class="blog__intro">This site came together in 4 days with some GitHub templates, ChatGPT help, and late nights...</p>
+         <a href="posts/post1.html" class="button button--flex button--small button--link">Read More</a>
+      </div>
+
+      <!-- Post 2 -->
+      <div class="blog__card">
+        <h3 class="blog__title">Joystick PCB Project</h3>
+        <p class="blog__intro">I created a custom game controller PCB using KiCAD, integrated with ESP32 for testing input simulations.</p>
+        <a href="#" class="button button--flex button--small button--link">Read More</a>
+      </div>
+
+    </div>
+  </section>
+
+<!-- ======= Footer (centered & always at bottom) ======= -->
+<footer class="footer" style="width: 100%; text-align: center; background: #fff; padding: 1rem 0; box-shadow: 0 -1px 6px rgba(0,0,0,0.05); position: relative;">
+    <div class="footer__container container" style="display: flex; justify-content: center; align-items: center;">
+        <p class="footer__copy" style="margin: 0;">&copy; 2024 Pugazh | All Rights Reserved</p>
+    </div>
+</footer>
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .blog.section {
+    flex: 1 0 auto;
+  }
+  .footer {
+    flex-shrink: 0;
+  }
+</style>
+
+  <!-- ======= Scripts ======= -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
