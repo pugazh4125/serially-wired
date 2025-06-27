@@ -24,6 +24,8 @@
     <!--==================== Animate on scroll CDN ====================-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    
+
 </head>
 
 <body>
@@ -473,66 +475,58 @@ Lately, I’ve been focusing on embedded systems and PCB design — just trying 
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
             <h2 class="section__title">Portfolio</h2>
-            <span class="section__subtitle">Most recent work</span>
+            <span class="section__subtitle">Most Recent Work</span>
 
             <div data-aos="fade-right" class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
+
                     <!--==================== PORTFOLIO 1 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio1.png" alt="" class="portfolio__img">
+                        <img src="assets/img/portfolio1.png" alt="Joystick PCB" class="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Custom PCB design for Joystick</h3>
-                            <p class="portfolio__description">Designed and developed a custom PCB for a joystick-based game controller. The circuit integrates analog joystick modules and button inputs to simulate directional movement and actions. Ideal for game development, robotics control, or embedded systems testing.</p>
-                            <a href="https://github.com/pugazh4125/game_controller" class="button button--flex button--small portfolio_-button" target="_blank">
-    View on GitHub
+                            <h3 class="portfolio__title">Custom PCB Design for Joystick</h3>
+                            <p class="portfolio__description">
+                                Developed a custom PCB for a joystick-based game controller. This design integrates analog joystick modules and button inputs to simulate directional movements and in-game actions. Suitable for game development, robotics, and embedded testing.
+                            </p>
+                            <a href="https://github.com/pugazh4125/game_controller" class="button button--flex button--small portfolio__button" target="_blank">
+            View on GitHub
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
                     </div>
+
                     <!--==================== PORTFOLIO 2 ====================-->
-                    <!--div class="portfolio__content grid swiper-slide">
-                        <img src="/assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.png" alt="ESP32 RGB Controller" class="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Brand Design</h3>
-                            <p class="portfolio__description">Website adaptable to all devices, with ui components and
-                                animated interactions.</p>
-                            <a href="#" class="button button--flex button--small portfolio_-button">
-                                Demo
+                            <h3 class="portfolio__title">ESP32 Bluetooth RGB Controller</h3>
+                            <p class="portfolio__description">
+            Designed a custom PCB for Bluetooth-controlled RGB LED strips using the ESP32-WROOM module. Key features include dual power input (USB-C and DC barrel), MOSFET-based RGB control, logic-level shifting, and onboard USB-to-Serial (CH340N) interface. Created in KiCad.
+                            </p>
+                            <a href="https://github.com/pugazh4125/esp32-rgb-controller" class="button button--flex button--small portfolio__button" target="_blank">
+            View on GitHub
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
-                    </div!-->
-                    <!--==================== PORTFOLIO 3 ====================-->
-                    <!--div class="portfolio__content grid swiper-slide">
-                        <img src="/assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+                    </div>
 
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Online Store</h3>
-                            <p class="portfolio__description">Website adaptable to all devices, with ui components and
-                                animated interactions.</p>
-                            <a href="#" class="button button--flex button--small portfolio_-button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div-->
                 </div>
 
-
-                <!-- Add Arrows -->
-                <!--div class="swiper-button-next">
+                <!-- Swiper Arrows -->
+                <div class="swiper-button-next">
                     <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
                 </div>
                 <div class="swiper-button-prev">
                     <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                </div!-->
+                </div>
 
-                <!-- Add Pagination -->
+                <!-- Swiper Pagination -->
                 <div class="swiper-pagination"></div>
             </div>
         </section>
+
 
         <!--==================== PROJECT IN MIND ====================-->
         <section class="project section">
@@ -664,8 +658,8 @@ Lately, I’ve been focusing on embedded systems and PCB design — just trying 
         </a></div>
 
     <!--==================== SWIPER JS ====================-->
-    <script src="/assets/js/swiper-bundle.min.js"></script>
-
+    <script src="assets/js/swiper-bundle.min.js"></script>
+   
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
 
